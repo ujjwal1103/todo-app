@@ -24,8 +24,6 @@ li {
   gap: 10px;
 }
 
-
-
 .todo-input {
   padding: 20px;
   background-color: rgb(44, 44, 44);
@@ -47,7 +45,6 @@ li {
   border-radius: 5px;
   cursor: pointer;
   display: flex;
-  
 }
 .todo-btn .btn svg {
   width: 30px;
@@ -151,4 +148,10 @@ li {
 
 .done-btn svg {
   color: green;
+}
+
+@media (max-width: 600px) {
+  .todo-list {
+    width: 100vw;
+  }
 }
